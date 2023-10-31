@@ -10,7 +10,8 @@ namespace Git_seged_3
     {
         public string Nev { get; set; } 
         public int Kor {get; set; }
-
+        public string Munkakor{get;set;}
+        
         public Person(string nev, int kor)
         {
             Nev = nev;
